@@ -14,5 +14,10 @@
     "summary": "Box to 3 applications",
     "sourceApp": "box",
     "targetApps": ["gmail", "marketo", "watsonlt"]
+  }, {
+    "name": "Create Salesforce and Box items from Marketo",
+    "summary": "Marketo to 2 applications",
+    "sourceApp": "marketo",
+    "targetApps": ["salesforce", "box"]
   }]
 }
