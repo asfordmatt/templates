@@ -1,0 +1,18 @@
+{
+  "templates": [{
+    "name": "Create events from Salesforce leads",
+    "summary": "Salesforce to 2 applications",
+    "sourceApp": "salesforce",
+    "targetApps": ["eventbrite", "slack"]
+  }, {
+    "name": "Create Slack message from Asana task",
+    "summary": "Asana to Slack",
+    "sourceApp": "asana",
+    "targetApps": ["slack"]
+  }, {
+    "name": "Send a notification email when a file appears in Box",
+    "summary": "Box to 3 applications",
+    "sourceApp": "box",
+    "targetApps": ["gmail", "marketo", "watsonlt"]
+  }]
+}
